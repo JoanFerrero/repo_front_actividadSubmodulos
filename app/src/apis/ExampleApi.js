@@ -14,6 +14,12 @@ class ExampleApi {
   static getAll3() {
     return axios.get(apiEndpoints.examples.getAll);
   }
+  static getAll4() {
+    return axios.get(apiEndpoints.examples.getAll);
+  }
+  static getAll5() {
+    return axios.get(apiEndpoints.examples.getAll);
+  }
 
   static create() {
     return axios.post(apiEndpoints.examples.create);
